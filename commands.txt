@@ -1,0 +1,3 @@
+#py -3 -m venv venv -- Use this command to create a virtual env.
+#.\venv\Scripts\activate.bat -- To make sure your Terminal uses same interpert as your venv
+# To start server, use uvicorn main:main_function_name
