@@ -1,3 +1,18 @@
 #py -3 -m venv venv -- Use this command to create a virtual env.
 #.\venv\Scripts\activate.bat -- To make sure your Terminal uses same interpert as your venv
 # To start server, use uvicorn main:main_function_name
+
+
+
+Alembic commands:
+alembic init alembic - Very first command to initilize alembic
+alembic revision -m "Create Post Table" : to create a new revision 
+To upgrade you can use multiple commands like below:
+alembic upgrade version_id
+alembic upgrade head
+alembic upgrade +1 
+
+alembic heads: will give you latest version in progress
+alembic downgrade version_id
+alembic downgrade -1 
+
