@@ -16,3 +16,8 @@ alembic heads: will give you latest version in progress
 alembic downgrade version_id
 alembic downgrade -1 
 
+
+pytest commands
+pytest -v -s -x
+# -s is used for printing print() statement in console, -x is to quit when first failed 
+test is encountered and -v is verbose to get more detail on the test.
